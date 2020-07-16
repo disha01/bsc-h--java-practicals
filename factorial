@@ -1,0 +1,30 @@
+package myfiirst;
+
+
+import java.util.*;
+/**
+ *
+ * @author Disha
+ */
+public class Myfiirst {
+
+    /**
+     * @param args the command line arguments
+     */
+       public static void main(String[] args) {
+    Scanner s=new Scanner(System.in);
+     
+     int n=s.nextInt();
+     int a=1;
+     while(n>0)
+     {
+         a=a*n;
+         n=n-1;
+         
+     }
+     
+     System.out.println("factorial is " + a);
+       }
+ 
+    
+}
